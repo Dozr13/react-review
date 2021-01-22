@@ -4,15 +4,23 @@ Use https://reactjs.org/docs/react-component.html#the-component-lifecycle and ht
 
 1.  Each component has several `lifecycle methods` that you can override to do what?
 
+<!-- //! run code at particular times in the process -->
+
 2.  What are the 4 categories of lifecycle methods? (these are the headings from the first link)
 
+<!-- !  Mounting, Updating, Unmounting, Error Handling -->
+
 3.  What are the names of the 5 commonly used lifecycle methods? (these are in bold in the first link)
+
+<!-- !  Constructor(), render(), componentDidMount(), componentDidUpdate(), componentWillUnmount() -->
 
 ### Understand
 
 Discuss this question in pairs if you have a 4-person group
 
 4.  What's going on in this code?
+
+
 
 ```jsx
 import React, { Component } from "react";
@@ -27,6 +35,7 @@ class Mentor extends Component {
         <h1>Dwight Schrute</h1>
         <h2>{this.props.questions.length}</h2>
         <h3>questions to answer</h3>
+        <h2>{ this.componentDidUpdate }</h2>
         <button onClick={this.props.answerQuestion}>Answer a question!</button>
       </div>
     );

@@ -4,15 +4,27 @@ Answer these on your own, then compare answers as a group
 
 1.  What is React?
 
+ <!--! JS library for building performant user interfaces. Prioritized component based archetecture and utilizes unidirectional data flow -->
+
 2.  What is create-react-app?
+
+<!-- !A package that creates a default boiler plate react application -->
 
 3.  What is Component Based Architecture?
 
+<!-- !  Sections of code that are broken into different components to keep code cleaner, reusable, and easy to debug -->
+
 4.  What is JSX?
+
+<!-- !html-like syntax for building components in React -->
 
 5.  What is the virtual DOM?
 
+<!-- !light-weight copy of DOM stored in memory and synced with the 'real' DOM through a process called reconciliation -->
+
 6.  What is unidirectional (one-way) data flow?
+
+<!-- !  Data flows one way down from Parent to Children. It DOES NOT transfer to siblings. i.e. Child to Child -->
 
 ### Understand
 
@@ -20,9 +32,13 @@ Discuss these questions in pairs if you have a 4-person group
 
 7.  Summarize what happens when you run `create-react-app my-app`
 
-8.  Summarize the steps for forking and cloning a repo with an existing React app. How does this process differ from the process of creating a new React app on your laptop?
+<!-- ! Build a basic React application so you can get started oni a new React project quickly. -->
 
+8.  Summarize the steps for forking and cloning a repo with an existing React app. How does this process differ from the process of creating a new React app on your laptop?
+<!-- ! --fork   --clone  -- cd into repo  --npm i
 9.  Explain what this code does:
+
+
 
 ```jsx
 import React from "react";
@@ -41,6 +57,7 @@ export default Mentor;
 ```
 
 10.  Explain how data is passed from a parent component to a child component.
+ <!-- ! Through props -->
 
 ### Apply
 
